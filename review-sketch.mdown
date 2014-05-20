@@ -1,0 +1,70 @@
+Sketch: Un nuevo paradigma en el diseño de interfaces
+=====================================================
+
+_Recientemente, Bohemian Coding publicó la tercera versión de su aplicación estrella para Mac OSX. Pero, ¿qué es Sketch y por qué hay tanto revuelo?_
+
+--- 
+
+Tradicionalmente, los diseñadores teníamos pocas opciones para diseñar interfaces, ya sea para web o (en estos últimos años con la aparición de los smartphones) para dispositivos móviles. Algunos prefieren Illustrator, otros el pronto extinto Firework, pero una gran mayoría utiliza una herramienta que fue concebida principalmente para el tratamiento de fotos: Photoshop.
+
+No tiene nada de malo usar estas herramientas, después de todo el martillo no hace al carpintero, pero lo que tienen en común es que los usuarios les dieron un uso para las cuales no fueron concebidas. Adobe se dio cuenta de esto y agregó funcionalidades, con la consecuencia de convertirse en aplicaciones cada vez más pesadas (y caras).
+
+Bohemian Coding apareció para patear el tablero con Sketch. ¡Por fin una aplicación pensada desde su inicio para las interfaces! En sus comienzos, cuando recién la comencé a usar allá por Octubre del 2012, estaba llena de bugs y carecía de ciertas herramientas. Sin embargo ya era un cambio en el paradigma de lo que venía usando hasta ese momento. Ahora, en su versión 3, redondearon el concepto y creo que lograron su meta.
+
+A continuación, algunas de sus características más destacadas:
+
+### Es vectorial ###
+
+Todo el diseño se realiza con vectores, por lo que no hay pérdida de calidad si, por ejemplo, queremos cambiar de tamaño un objeto. Pero además tenemos una previsualización rasterizada (bitmap) para cuando queremos ver en el detalle los píxeles. Otra ventaja es que la creación de bordes redondeados es trivial solo cambiando un atributo en el inspector, así como la edición de nodos individuales.
+
+### Exportación moderna ###
+
+La generación de assets para su utilización final es una de sus mejores características. Tenemos muchas posibilidades: se pueden exportar distintos formatos y resoluciones, todo con un botón.
+
+Por ejemplo, si estamos diseñando una interfaz para iOS, podemos seleccionar de exportar un mismo asset en el tamaño que estamos trabajando y @2x para pantallas retina.
+
+No podía faltar también la exportación a CSS. Todos los estilos que le aplicamos a un objeto, ya sea color o una sombra, están listos para usar y aplicarlos a nuestro código tan solo eligiendo una opción de menú.
+
+### Exactitud al píxel ###
+
+¿Tenemos que hacer ese rectángulo 3 píxeles más alto? ¡No hay problema! Sketch tiene un inspector con todas las medidas y posiciones de un objeto que se pueden cambiar fácilmente y con precisión.
+
+También desde el inspector podemos cambiar rápidamente otras características como el color y el borde del objeto, así como efectos de sombra y otros que hayamos elegido.
+
+### Estilos y símbolos ###
+
+Al hacer un sitio web o un app generalmente tenemos estilos que reutilizamos. Sketch posee _Shared Styles_, similares a los _Layer Styles_ de Photoshop, que podemos aplicar a más de un objeto: si cambiamos el estilo, cambia en todos los objetos que lo aplicamos.
+
+Tiene también _Text Styles_ con los estilos tipográficos que asignemos. Por ejemplo, podemos definir estilos para títulos y subtítulos y después, con un simple click, aplicarlos a los textos que queramos.
+
+Finalmente, esta versión 3 trajo una mejora muy reclamada por todos los usuarios de Sketch: La inclusión de símbolos. Tienen un comportamiento similar al de Fireworks; es decir, es posible convertir un objeto o grupo en un símbolo y luego duplicarlo. Si cambiamos la forma o estilos del objeto, este lo hace en todas sus instancias.
+
+Además, posee una opción donde si el símbolo contiene texto, podemos asignar que al modificar el texto no lo haga en el resto de las instancias. Esto es muy práctico cuando hacemos un botón donde el estilo visual es el mismo, pero el texto cambia.
+
+### Grillas y layouts ###
+
+Un buen diseño siempre está soportado por una grilla para ordenar sus elementos. Sketch tiene unas muy buenas funciones en las cuales podemos configurar una grilla básica a gusto. Además, ya tiene presets que comúnmente  se suelen usar en el diseño web, como el de 960px.
+
+### Renderizado de textos ###
+
+Esta es una de las primeras cosas que me atrajeron de Sketch. Siempre que uno hacía un diseño en Photoshop, tenía discusiones con el cliente porque "el texto no se ve igual", ya que el renderizado no es nativo y ninguna opción satisface. En Sketch esto no pasa, ya que lo que se ve en pantalla es como la Mac renderiza el texto, una delicia.
+
+### Plugins ###
+
+Por más que Sketch tenga un montón de características, siempre existe esa funcionalidad que nos falta o que quisiéramos tener. Los desarrolladores de Sketch pensaron en eso y posibilitaron la inclusión de plugins que cualquiera puede generar, habilitando llamadas internas al programa para hacer casi cualquier cosa.
+
+Algunos plugins destacados:
+
+...
+
+
+### Cosas sin las que ya no puedo vivir ###
+
+Como todo buen programa, cada vez que por alguna razón tengo que trabajar en otra aplicación hecho de menos, sobre todo, ciertas cosas:
+  
+  - *Medidas al instante:* Presionando la tecla Opt, obtenemos las distancias relativas de cualquier objeto a otro, y esto, les puedo asegurar, es invaluable cuando estamos diseñando.
+  - *Background Blur:* En iOS7 se introdujo esta característica y con una sola opción, es posible activarla. Esto no existe en ninguna otra app de diseño.
+  - *Artboards:* Es muy fácil y rápido crear artboards de diferentes medidas. Ya no hace falta tener complicados seteos multicapa o archivos separados, con hacer otro artboard (o duplicarlo) ya basta. Tiene presets para las medidas de pantalla más comunes.
+  - *Snap inteligente:* Sí, otros programas tienen snap, pero ninguno funciona como Sketch. Al instante predice si uno quiere alinear al centro o a la izquierda cualquier objeto con otro o con un artboard y eso facilita y agiliza muchísimo el proceso de diseño.
+
+Creo firmemente que hoy en día, todo diseñador de interfaces tiene que probar Sketch. Además de las ventajas que acabo de enumerar, la comunidad va creciendo muchísimo y los desarrolladores siempre están introduciendo mejoras. El futuro es más que prometedor.
